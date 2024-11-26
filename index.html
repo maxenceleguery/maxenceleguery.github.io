@@ -32,10 +32,16 @@
                         <a class="nav-link" href="#about" style="color: white;">About</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link" href="#experiences" style="color: white;">Experiences</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="#skills" style="color: white;">Skills</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#projects" style="color: white;">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#papers" style="color: white;">Papers</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#contact" style="color: white;">Contact</a>
@@ -61,7 +67,7 @@
     <!-- about section-->
     <section id="about" class="about">
         <div class="container mt-4 pt-4">
-            <h1 class="text-center">About Me</h1>
+            <h1 class="section-title">About Me</h1>
             <div class="row mt-4">
                 <div class="col-lg-4">
                     <img src="images/about.png" class="imageAboutPage" alt="" style="width: 90%;">
@@ -190,132 +196,148 @@
             </div>
     </section>
 
+    <!-- Experiences section-->
+    <section id="experiences">
+        <div class="container">
+            <h1 class="section-title">Professional Experiences</h1>
+            <div class="experience-list">
+                <div class="experience-card">
+                    <h3 class="experience-title">Engineer Internship in Deep Learning</h3>
+                    <p class="experience-company"><a href="https://www.visionairy.io/"
+                            style="color: inherit;">Visionairy</a> | February 2024 - August 2024</p>
+                    <ul class="experience-details">
+                        <li>Implemented AI solutions for anomaly detection in industrial environments.</li>
+                        <li>Deployed machine learning models in production using Docker and Azure.</li>
+                        <li>Collaborated with cross-functional teams to ensure smooth integration and continuous
+                            improvement of AI systems.</li>
+                    </ul>
+                </div>
+                <div class="experience-card">
+                    <h3 class="experience-title">Research Internship in Deep Learning</h3>
+                    <p class="experience-company"><a href="https://u2is.ensta-paris.fr/?lang=en"
+                            style="color: inherit;">U2IS Laboratory, ENSTA Paris</a> | September 2023 - February 2024
+                    </p>
+                    <ul class="experience-details">
+                        <li>Conducted research on uncertainty estimation to mitigate overconfident AI model predictions.
+                        </li>
+                        <li>Collaborated with a teacher-researcher, resulting in a paper submitted to CVPR.</li>
+                        <li>Contributed to advancing deep learning techniques for robust and reliable AI models.</li>
+                    </ul>
+                </div>
+                <!-- Add more experience cards here as needed -->
+            </div>
+        </div>
+    </section>
+
+
     <!-- skills section-->
     <section id="skills">
         <div class="container">
-            <h1 class="text-center">Skills</h1>
+            <h1 class="section-title">Skills</h1>
+
+            <!-- Programming Languages -->
             <div class="row">
                 <div class="col-lg-4 mt-4">
                     <div class="card servicesText">
                         <div class="card-body">
-                            <div style="display: flex; align-content: center;">
-                                <img src="images/logo_c++.png" style="width: 10%; margin: auto;">
-                            </div>
-                            <h4 class="card-title mt-3">C/C++</h4>
-                            <p class="card-text mt-3">
-                                I am capable of using C or C++ to develop optimized
-                                algorithms to solve various problems. I have the basic
-                                knowledge to understand how the compilator works and how
-                                it is executed on the processor.
-                                <br>
-                                I also know about object-oriented programming and
-                                parallel computing with librairies such as OpenMPI.
-                            </p>
+                            <h4 class="card-title mt-3">Programming Languages</h4>
+                            <ul class="skills-list">
+                                <li>Python</li>
+                                <li>C++</li>
+                                <li>JavaScript</li>
+                                <li>Java</li>
+                                <li>Rust</li>
+                                <li>MatLab</li>
+                            </ul>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 mt-4">
                     <div class="card servicesText">
                         <div class="card-body">
-                            <div style="display: flex;">
-                                <img src="images/python_logo.png" style="width: 10%; margin: auto;">
-                            </div>
-                            <h4 class="card-title mt-3">Python</h4>
-                            <p class="card-text mt-3">
-                                I have experience with Pytorch (Machine Learning) and
-                                OpenCV (Computer Vision).
-                            </p>
+                            <h4 class="card-title mt-3">Deep Learning & AI Tools</h4>
+                            <ul class="skills-list">
+                                <li>PyTorch</li>
+                                <li>Scikit-Learn</li>
+                                <li>OpenCV</li>
+                                <li>TensorFlow/Keras</li>
+                                <li>MLFlow</li>
+                            </ul>
                         </div>
                     </div>
                 </div>
-
                 <div class="col-lg-4 mt-4">
                     <div class="card servicesText">
                         <div class="card-body">
-                            <div style="display: flex;">
-                                <img src="images/javascript_logo.png" style="width: 10%; margin: auto;">
-                            </div>
-                            <h4 class="card-title mt-3">Javascript</h4>
-                            <p class="card-text mt-3">
-                                I have experience with Javascript in the context of web
-                                development (HTML, CSS) and NodeJS (Discord, Twitch
-                                API).
-                            </p>
+                            <h4 class="card-title mt-3">Web Development</h4>
+                            <ul class="skills-list">
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>JavaScript</li>
+                            </ul>
                         </div>
                     </div>
                 </div>
-            </div>
-
-            <div class="row">
-                <div class="col-lg-4 mt-4">
-                    <div class="card servicesText">
-                        <div class="card-body">
-                            <div style="display: flex;">
-                                <img src="images/nvidia_cuda_logo.jpg" style="width: 15%; margin: auto;">
-                            </div>
-                            <h4 class="card-title mt-3">Cuda</h4>
-                            <p class="card-text mt-3">
-                                I have experience with Cuda (Cuda C++) as I write my own
-                                ray tracing algorithm accelerated with GPU.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 mt-4">
-                    <div class="card servicesText">
-                        <div class="card-body">
-                            <div style="display: flex;">
-                                <img src="images/matlab_logo.png" style="width: 10%; margin: auto;">
-                            </div>
-                            <h4 class="card-title mt-3">Matlab</h4>
-                            <p class="card-text mt-3">
-                                I know how to use Matlab and its capabilities in terms
-                                of vectorized computing.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
                 <div class="col-lg-4 mt-4">
                     <div class="card servicesText">
                         <div class="card-body">
                             <div style="display: flex;">
                                 <img src="images/linux_logo.png" style="width: 20%; margin: auto;">
                             </div>
-                            <h4 class="card-title mt-3">Linux</h4>
-                            <p class="card-text mt-3">
-                                I am familiar with the Linux operating systems.
-                            </p>
+                            <h4 class="card-title mt-3">Tools & Technologies</h4>
+                            <ul class="skills-list">
+                                <li>Git</li>
+                                <li>Docker</li>
+                                <li>Linux</li>
+                                <li>Azure</li>
+                                <li>CI/CD (GitHub Actions)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Languages -->
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <h4 class="card-title mt-3">Languages</h4>
+                            <ul class="card-text mt-3">
+                                <li>French (Native)</li>
+                                <li>English (Fluent)</li>
+                                <li>Spanish (Basic-Intermediate)</li>
+                                <li>Japanese (Basic)</li>
+                            </ul>
                         </div>
                     </div>
                 </div>
             </div>
+
         </div>
     </section>
+
 
     <!-- projects section-->
     <section id="projects">
         <div class="container mt-3">
-            <h1 class="text-center">Projects</h1>
-
+            <h1 class="section-title">Projects</h1>
             <button class="accordion">C++ Raytracer</button>
             <div class="panel">
                 <div class="card">
                     <img class="card-img-top" src="images/raytracer_card.png" alt="" style="width:50%;">
                     <div class="card-body">
                         <p class="card-text">
-                            Using C++, I developed my own realistic 3D renderer with raytracing. I used Nvidia CUDA to massively accelerated calculations.
+                            Using C++, I developed my own realistic 3D renderer with raytracing. I used Nvidia CUDA to
+                            massively accelerated calculations.
                             <br>Features :
-                            <ul>
-                                <li>Can render triangles and polygons decomposable in triangles</li>
-                                <li>Bounding volume hierarchy (BVH)</li>
-                                <li>Material : support light emission, color, glossiness, transparency</li>
-                                <li>Moving camera and adaptable parameters (fov,image size)</li>
-                                <li>SDL2 live screen with keyboard control of the camera</li>
-                                <li>Exportation in PNG format</li>
-                                <li>Support Simple OBJ objects</li>
-                            </ul>
+                        <ul>
+                            <li>Can render triangles and polygons decomposable in triangles</li>
+                            <li>Bounding volume hierarchy (BVH)</li>
+                            <li>Material : support light emission, color, glossiness, transparency</li>
+                            <li>Moving camera and adaptable parameters (fov,image size)</li>
+                            <li>SDL2 live screen with keyboard control of the camera</li>
+                            <li>Exportation in PNG format</li>
+                            <li>Support simple OBJ objects</li>
+                        </ul>
                         </p>
                         <div class="text-center">
                             <a href="https://github.com/maxenceleguery/3d-render-engine"
@@ -359,43 +381,44 @@
                     </div>
                 </div>
             </div>
+    </section>
 
-            <button class="accordion">U2IS Internship</button>
-            <div class="panel">
-                <img class="card-img-top" src="images/portfolioImage3.jpg" alt="" style="width:100%">
-                <div class="card-body">
-                    <p class="card-text">
-                        ABNN :
-                        <br>
-                        <br>
-                        SGHMC :
+    <!-- Scientific Papers Section -->
+    <section id="papers">
+        <div class="container">
+            <h1 class="section-title">Scientific Papers</h1>
+            <div class="paper-list" id="paper-list">
+                <div class="paper-card">
+                    <h3 class="paper-title">
+                        <a href="https://arxiv.org/abs/XXXX.XXXX" target="_blank">Title of the Paper</a>
+                    </h3>
+                    <p class="paper-authors">Authors: Author 1, Author 2, Author 3</p>
+                    <p class="paper-journal">Published in: Journal/Conference Name (e.g., CVPR 2024)</p>
+                    <p class="paper-summary">
+                        A brief summary of the paper's key contributions, methodology, and results. This paper
+                        investigates...
                     </p>
-                    <div class="text-center">
-                        <!-- <a href="https://github.com/maxenceleguery/tetris" class="btn btn-success">Link</a> -->
-                    </div>
                 </div>
-            </div>
-
-            <button class="accordion">Visionairy Internship</button>
-            <div class="panel">
-                <img class="card-img-top" src="images/portfolioImage3.jpg" alt="" style="width:100%">
-                <div class="card-body">
-                    <p class="card-text">
-                        To come.
+                <div class="paper-card">
+                    <h3 class="paper-title">
+                        <a href="https://arxiv.org/abs/XXXX.XXXX" target="_blank">Title of the Paper</a>
+                    </h3>
+                    <p class="paper-authors">Authors: Author 1, Author 2</p>
+                    <p class="paper-journal">Published in: Journal/Conference Name (e.g., NeurIPS 2024)</p>
+                    <p class="paper-summary">
+                        This paper explores the use of deep learning for addressing challenges in... It presents a novel
+                        method...
                     </p>
-                    <div class="text-center">
-                        <!-- <a href="https://github.com/maxenceleguery/tetris" class="btn btn-success">Link</a> -->
-                    </div>
                 </div>
+                <!-- Add more paper cards as needed -->
             </div>
-
-
+        </div>
     </section>
 
     <!-- contact section-->
     <section id="contact">
         <div class="container">
-            <h1 class="text-center">Contact</h1>
+            <h1 class="section-title">Contact</h1>
             <div class="row">
                 <div class="col-lg-4 mt-4">
                     <div class="card servicesText">
