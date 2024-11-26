@@ -1,352 +1,457 @@
 <!doctype html>
 <html lang="en">
-        <head>
-                <meta charset="utf-8">
-                <meta name="viewport" content="width=device-width, initial-scale=1">
-                <meta name="author" content="Maxence Leguéry">
 
-                <!-- Bootstrap CSS -->
-                <link href="style.css" rel="stylesheet">
-                <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Maxence Leguéry">
 
-                <title>Maxence Leguéry - Portfolio</title>
-        </head>
+    <!-- Bootstrap CSS -->
+    <link href="style.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-        <body>
-                <nav class="navbar navbar-expand-lg fixed-top navbarScroll">
-                        <div class="container">
-                                <a class="navbar-brand" href="#" style="color: white;">Maxence Leguéry</a>
-                                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                                <span class="navbar-toggler-icon"></span>
-                                </button>
-                                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                                <ul class="navbar-nav ms-auto">
-                                        <li class="nav-item active">
-                                        <a class="nav-link" href="#home" style="color: white;">Home</a>
-                                        </li>
-                                        <li class="nav-item">
-                                        <a class="nav-link" href="#about" style="color: white;">About</a>
-                                        </li>
-                                        <li class="nav-item">
-                                        <a class="nav-link" href="#skills" style="color: white;">Skills</a>
-                                        </li>
-                                        <li class="nav-item">
-                                        <a class="nav-link" href="#projects" style="color: white;">Projects</a>
-                                        </li>
-                                        <li class="nav-item">
-                                        <a class="nav-link" href="#contact" style="color: white;">Contact</a>
-                                        </li>
-                                </ul>
-                                </div>
+    <title>Maxence Leguéry - Portfolio</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top navbarScroll">
+        <div class="container">
+            <a class="navbar-brand" href="#" style="color: white;">Maxence Leguéry</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home" style="color: white;">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about" style="color: white;">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills" style="color: white;">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects" style="color: white;">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact" style="color: white;">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- main banner -->
+    <section class="bgimage" id="home">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
+                    <h2 class="hero_title">Hi, I am Maxence Leguéry</h2>
+                    <p class="hero_desc">I am a french engineering student specialized in computer
+                        science</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- about section-->
+    <section id="about" class="about">
+        <div class="container mt-4 pt-4">
+            <h1 class="text-center">About Me</h1>
+            <div class="row mt-4">
+                <div class="col-lg-4">
+                    <img src="images/about.png" class="imageAboutPage" alt="" style="width: 90%;">
+                </div>
+
+                <div class="col-lg-8">
+                    <div class="row mt-3">
+                        <div class="col-md-6">
+                            <ul>
+                                <li>Name : Maxence Leguéry</li>
+                                <li id="age">Age :</li>
+                                <li>Occupation : Engineering student in computer science
+                                </li>
+                                <li>University : <a href="https://www.ensta-paris.fr/" style="color: black;">ENSTA
+                                        Paris</a>
+                                </li>
+                            </ul>
                         </div>
-                </nav>
-
-                 <!-- main banner -->
-                <section class="bgimage" id="home">
-                        <div class="container-fluid">
-                        <div class="row">
-                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
-                                <h2 class="hero_title">Hi, I am Maxence Leguéry</h2>
-                                <p class="hero_desc">I am a french engineering student specialized in computer science</p>
-                        </div>
-                        </div>
-                        </div>
-                </section>
-
-                <!-- about section-->
-                <section id="about" class="about">
-                        <div class="container mt-4 pt-4">
-                        <h1 class="text-center">About Me</h1>
-                        <div class="row mt-4">
-                                <div class="col-lg-4">
-                                        <img src="images/about.png" class= "imageAboutPage" alt="" style="width: 90%;">
-                                </div>
-
-                                <div class="col-lg-8">
-                                        <div class="row mt-3">
-                                                <div class="col-md-6">
-                                                <ul>
-                                                        <li>Name : Maxence Leguéry</li>
-                                                        <li id="age">Age :</li>
-                                                        <li>Occupation : Engineering student in computer science</li>
-                                                        <li>University : <a href="https://www.ensta-paris.fr/" style="color: black;">ENSTA Paris</a></li>
-                                                </ul>
-                                                </div> 
-                                        </div>
-                                        <div class="row mt-3">
-                                                <h3>Education</h3>
-                                                <div class="col-lg-2">2021 - 2024</div>
-                                                <div class="col-lg-10">
-                                                        <h6><b>Master of science in engineering</b>, ENSTA Paris, Palaiseau, France</h6>
-                                                        <p>
-                                                                Top 10 Graduate school of engineering in France <br>
-                                                                Multiple courses : Sciences, language, economics, culture <br>
-                                                                Specialization in computer science (Pytorch, OpenCV, Machine Learning, Deep Learning) 
-                                                        </p>
-                                                </div>
-
-                                                <div class="col-lg-2">2019 - 2021</div>
-                                                <div class="col-lg-10">
-                                                        <h6><b>CPGE PTSI-PT*</b>, Lycée Gustave Eiffel, Bordeaux, France</h6>
-                                                        <p>
-                                                                Advanced Physics and Mathematics Class <br>
-                                                                2 years of intense preparation for application to graduate schools
-                                                        </p>
-                                                </div>
-
-                                                <div class="col-lg-2">2016 - 2019</div>
-                                                <div class="col-lg-10">
-                                                        <h6><b>Baccalauréat S</b>, Lycée Fernand Daguin, Mérignac, France</h6>
-                                                        <p>
-                                                                French national academic qualification after secondary education <br>
-                                                                Graduated with honor
-                                                        </p>
-                                                </div>
-
-                                                <h3>Experience</h3>
-
-                                                <div class="col-lg-2">Sep 2023 - <br> Feb 2024</div>
-                                                <div class="col-lg-10">
-                                                        <h6><b>Research Internship U2IS</b>, ENSTA Paris, Palaiseau, France</h6>
-                                                        <p>
-                                                                Deep learning : Uncertainty estimation and bayesian neural networks.
-                                                        </p>
-                                                </div>
-
-                                                <div class="col-lg-2">June 2023 - <br> Aug 2023</div>
-                                                <div class="col-lg-10">
-                                                        <h6><b>Research Internship CPHT</b>, École Polytechnique, Palaiseau, France</h6>
-                                                        <p>
-                                                                General relativity : Quasinormal modes of different spaces-time and numerical resolution. <br>
-                                                                <a href="https://bibnum.ensta.fr/9537/" style="color: black;">[Quasinormal modes in curved spaces-time]</a>
-                                                        </p>
-                                                </div>
-
-                                                <div class="col-lg-2">Jan 2022 - <br> Jan 2023</div>
-                                                <div class="col-lg-10">
-                                                        <h6><b>Vice-President Technimage</b></h6>
-                                                        <p>
-                                                                Vice-President of the audiovisual club of ENSTA Paris. <br>
-                                                                Awarded best scenario with the Technimage team at <a href="https://lerush.fr/edition2022" style="color: black;">Le Rush 2022</a> organized at CentraleSupélec.
-                                                        </p>
-                                                </div>
-
-                                                <div class="col-lg-2">July 2022</div>
-                                                <div class="col-lg-10">
-                                                        <h6><b>Internship Alsymex Laseris</b></h6>
-                                                        <p>
-                                                                Defense & Security, Energy, Aeronautics & Space and Large Scientific Instruments. <br>
-                                                                Work in cleanroom. <br>
-                                                                Preparation for the implementation of a Computerized Maintenance Management System (CMMS).
-                                                        </p>
-                                                </div>
-
-                                                <div class="col-lg-2">May 2022</div>
-                                                <div class="col-lg-10">
-                                                        <h6><b>Volunteer organizer TFJM²</b></h6>
-                                                        <p>
-                                                                French Tournament for Young Mathematicians. <br>
-                                                                Organization of the TFJM² final at ENSTA Paris.
-                                                        </p>
-                                                </div>
-
-                                        </div>
-                                </div>
-                        </div>
-                </section>
-
-                <!-- skills section-->
-                <section id="skills">
-                        <div class="container">
-                        <h1 class="text-center">Skills</h1>
-                        <div class="row">
-                                <div class="col-lg-4 mt-4">
-                                <div class="card servicesText">
-                                        <div class="card-body">
-                                        <div style="display: flex;">
-                                                <img src="images/logo_c++.png" style="width: 10%; margin: auto;">
-                                        </div>
-                                        <h4 class="card-title mt-3">C/C++</h4>
-                                        <p class="card-text mt-3">
-                                                I am capable of using C or C++ to develop optimized algorithms to solve various problems. I have the basic knowledge to understand how the compilator works and how it is executed on the processor.
-                                                <br>
-                                                I also know about object-oriented programming and parallel computing with librairies such as OpenMPI.
-                                        </p>
-                                        </div>
-                                </div>  
-                                </div>
-                                <div class="col-lg-4 mt-4">
-                                <div class="card servicesText">
-                                        <div class="card-body">
-                                                <div style="display: flex;">
-                                                        <img src="images/python_logo.png" style="width: 10%; margin: auto;">
-                                                </div>
-                                        <h4 class="card-title mt-3">Python</h4>
-                                        <p class="card-text mt-3">
-                                                I have experience with Pytorch (Machine Learning) and OpenCV (Computer Vision).
-                                        </p>
-                                        </div>
-                                </div>  
-                                </div>
-
-                                <div class="col-lg-4 mt-4">
-                                <div class="card servicesText">
-                                        <div class="card-body">
-                                                <div style="display: flex;">
-                                                        <img src="images/javascript_logo.png" style="width: 10%; margin: auto;">
-                                                </div>
-                                        <h4 class="card-title mt-3">Javascript</h4>
-                                        <p class="card-text mt-3">
-                                                I have experience with Javascript in the context of web development (HTML, CSS) and NodeJS (Discord, Twitch API).
-                                        </p>
-                                        </div>
-                                </div>  
-                                </div>
+                    </div>
+                    <div class="row mt-3">
+                        <h3>Education</h3>
+                        <div class="col-lg-2">2021 - 2024</div>
+                        <div class="col-lg-10">
+                            <h6><b>Master of science in engineering</b>, ENSTA Paris,
+                                Palaiseau, France</h6>
+                            <p>
+                                Top 10 Graduate school of engineering in France <br>
+                                Multiple courses : Sciences, language, economics,
+                                culture <br>
+                                Specialization in computer science (Pytorch, OpenCV,
+                                Machine Learning, Deep Learning)
+                            </p>
                         </div>
 
-                        <div class="row">
-                                <div class="col-lg-4 mt-4">
-                                <div class="card servicesText">
-                                        <div class="card-body">
-                                                <div style="display: flex;">
-                                                        <img src="images/nvidia_cuda_logo.jpg" style="width: 15%; margin: auto;">
-                                                </div>
-                                        <h4 class="card-title mt-3">Cuda</h4>
-                                        <p class="card-text mt-3">
-                                                I have experience with Cuda (Cuda C++) as I write my own ray tracing algorithm accelerated with GPU.
-                                        </p>
-                                        </div>
-                                </div>  
-                                </div>
-
-                                <div class="col-lg-4 mt-4">
-                                <div class="card servicesText">
-                                        <div class="card-body">
-                                                <div style="display: flex;">
-                                                        <img src="images/matlab_logo.png" style="width: 10%; margin: auto;">
-                                                </div>
-                                        <h4 class="card-title mt-3">Matlab</h4>
-                                        <p class="card-text mt-3">
-                                                I know how to use Matlab and its capabilities in terms of vectorized computing.
-                                        </p>
-                                        </div>
-                                </div>  
-                                </div>
-
-                                <div class="col-lg-4 mt-4">
-                                <div class="card servicesText">
-                                        <div class="card-body">
-                                                <div style="display: flex;">
-                                                        <img src="images/linux_logo.png" style="width: 20%; margin: auto;">
-                                                </div>
-                                        <h4 class="card-title mt-3">Linux</h4>
-                                        <p class="card-text mt-3">
-                                                I am familiar with the Linux operating systems. 
-                                        </p>
-                                        </div>
-                                </div>  
-                                </div>
+                        <div class="col-lg-2">2019 - 2021</div>
+                        <div class="col-lg-10">
+                            <h6><b>CPGE PTSI-PT*</b>, Lycée Gustave Eiffel, Bordeaux, France
+                            </h6>
+                            <p>
+                                Advanced Physics and Mathematics Class <br>
+                                2 years of intense preparation for application to
+                                graduate schools
+                            </p>
                         </div>
+
+                        <div class="col-lg-2">2016 - 2019</div>
+                        <div class="col-lg-10">
+                            <h6><b>Baccalauréat S</b>, Lycée Fernand Daguin, Mérignac,
+                                France</h6>
+                            <p>
+                                French national academic qualification after secondary
+                                education <br>
+                                Graduated with honor
+                            </p>
                         </div>
-                </section>
 
-                <!-- projects section-->
-                <section id="projects">
-                        <div class="container mt-3">
-                        <h1 class="text-center">Projects</h1>
-                        <div class="row">
-                                <div class="col-lg-4 mt-4">
-                                <div class="card">
-                                        <img class="card-img-top" src="images/raytracer_card.png" alt="" style="width:100%">
-                                        <div class="card-body">
-                                        <h4 class="card-title">C++ Raytracer</h4>
-                                        <p class="card-text">Build a 3D environment, add faces with vertices and finally render the image using Nvidia Cuda.</p>
-                                        <div class="text-center">
-                                                <a href="https://github.com/maxenceleguery/3d-render-engine" class="btn btn-success">Link</a>
-                                        </div>
-                                        </div>
-                                </div>
-                                </div>
+                        <h3>Experience</h3>
 
-                                <div class="col-lg-4 mt-4">
-                                <div class="card portfolioContent">
-                                        <img class="card-img-top" src="images/portfolioImage4.jpg" alt="" style="width:100%">
-                                        <div class="card-body">
-                                        <h4 class="card-title">FixMatch algorithm</h4>
-                                        <p class="card-text">FixMatch algorithm written in Python using the Pytorch workflow on the CIFAR10 database.</p>
-                                        <div class="text-center">
-                                                <a href="https://github.com/maxenceleguery/ENSTA_courses/tree/master/MI201" class="btn btn-success">Link</a>
-                                        </div>
-                                        </div>
-                                </div>
-                                </div>
-
-                                <div class="col-lg-4 mt-4">
-                                <div class="card portfolioContent">
-                                        <img class="card-img-top" src="images/portfolioImage3.jpg" alt="" style="width:100%">
-                                        <div class="card-body">
-                                        <h4 class="card-title">3D Tetris</h4>
-                                        <p class="card-text">3D version of the famous game : Tetris. Written in C++ using OpenGL.</p>
-                                        <div class="text-center">
-                                                <a href="https://github.com/maxenceleguery/tetris" class="btn btn-success">Link</a>
-                                        </div>
-                                        </div>
-                                </div>
-                                </div>
+                        <div class="col-lg-2">Feb 2024 - <br> Aug 2024</div>
+                        <div class="col-lg-10">
+                            <h6><b>Machine learning Internship</b>, Palaiseau,
+                                France</h6>
+                            <p>
+                                Deep learning for Visual Anomaly Detection.
+                            </p>
                         </div>
-                </section>
 
-                <!-- contact section-->
-                <section id="contact">
-                        <div class="container">
-                                <h1 class="text-center">Contact</h1>
-                                <div class="row">
-                                        <div class="col-lg-4 mt-4">
-                                        <div class="card servicesText">
-                                                <div class="card-body">
-                                                <div style="display: flex;">
-                                                        <img src="images/linkedin_logo.webp" style="width: 10%; margin: auto;">
-                                                </div>
-                                                <br>
-                                                <br>
-                                                <div class="text-center">
-                                                        <a href="https://www.linkedin.com/in/maxence-leguery/" class="btn btn-success">Linkedin</a>
-                                                </div>
-                                                </div>
-                                        </div>  
-                                        </div>
-                                        <div class="col-lg-4 mt-4">
-                                        <div class="card servicesText">
-                                                <div class="card-body">
-                                                        <div style="display: flex;">
-                                                                <img src="images/github_logo.png" style="width: 20%; margin: auto;">
-                                                        </div>
-                                                <br>
-                                                <br>
-                                                <div class="text-center">
-                                                        <a href="https://github.com/maxenceleguery" class="btn btn-success">Github</a>
-                                                </div>
-                                                </div>
-                                        </div>  
-                                        </div>
-        
-                                        <div class="col-lg-4 mt-4">
-                                        <div class="card servicesText">
-                                                <div class="card-body">
-                                                        <div style="display: flex;">
-                                                                <img src="images/mail_logo.png" style="width: 10%; margin: auto;">
-                                                        </div>
-                                                <h4 class="card-title mt-3">Mail</h4>
-                                                <p class="card-text mt-3 text-center">
-                                                        maxence.leguery(at)ensta-paris.fr
-                                                </p>
-                                                </div>
-                                        </div>  
-                                        </div>
-                                </div>
-                </section>
+                        <div class="col-lg-2">Sep 2023 - <br> Feb 2024</div>
+                        <div class="col-lg-10">
+                            <h6><b>Research Internship U2IS</b>, ENSTA Paris, Palaiseau,
+                                France</h6>
+                            <p>
+                                Deep learning : Uncertainty estimation and bayesian
+                                neural networks.
+                            </p>
+                        </div>
 
-                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-                <script type="text/javascript" src="script.js"></script>
-        </body>
+                        <div class="col-lg-2">June 2023 - <br> Aug 2023</div>
+                        <div class="col-lg-10">
+                            <h6><b>Research Internship CPHT</b>, École Polytechnique,
+                                Palaiseau, France</h6>
+                            <p>
+                                General relativity : Quasinormal modes of different
+                                spaces-time and numerical resolution. <br>
+                                <a href="https://bibnum.ensta.fr/9537/" style="color: black;">[Quasinormal modes in
+                                    curved spaces-time]</a>
+                            </p>
+                        </div>
+
+                        <div class="col-lg-2">Jan 2022 - <br> Jan 2023</div>
+                        <div class="col-lg-10">
+                            <h6><b>Vice-President Technimage</b></h6>
+                            <p>
+                                Vice-President of the audiovisual club of ENSTA Paris.
+                                <br>
+                                Awarded best scenario with the Technimage team at <a
+                                    href="https://lerush.fr/edition2022" style="color: black;">Le Rush 2022</a>
+                                organized
+                                at CentraleSupélec.
+                            </p>
+                        </div>
+
+                        <div class="col-lg-2">July 2022</div>
+                        <div class="col-lg-10">
+                            <h6><b>Internship Alsymex Laseris</b></h6>
+                            <p>
+                                Defense & Security, Energy, Aeronautics & Space and
+                                Large Scientific Instruments. <br>
+                                Work in cleanroom. <br>
+                                Preparation for the implementation of a Computerized
+                                Maintenance Management System (CMMS).
+                            </p>
+                        </div>
+
+                        <div class="col-lg-2">May 2022</div>
+                        <div class="col-lg-10">
+                            <h6><b>Volunteer organizer TFJM²</b></h6>
+                            <p>
+                                French Tournament for Young Mathematicians. <br>
+                                Organization of the TFJM² final at ENSTA Paris.
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- skills section-->
+    <section id="skills">
+        <div class="container">
+            <h1 class="text-center">Skills</h1>
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <div style="display: flex; align-content: center;">
+                                <img src="images/logo_c++.png" style="width: 10%; margin: auto;">
+                            </div>
+                            <h4 class="card-title mt-3">C/C++</h4>
+                            <p class="card-text mt-3">
+                                I am capable of using C or C++ to develop optimized
+                                algorithms to solve various problems. I have the basic
+                                knowledge to understand how the compilator works and how
+                                it is executed on the processor.
+                                <br>
+                                I also know about object-oriented programming and
+                                parallel computing with librairies such as OpenMPI.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <div style="display: flex;">
+                                <img src="images/python_logo.png" style="width: 10%; margin: auto;">
+                            </div>
+                            <h4 class="card-title mt-3">Python</h4>
+                            <p class="card-text mt-3">
+                                I have experience with Pytorch (Machine Learning) and
+                                OpenCV (Computer Vision).
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <div style="display: flex;">
+                                <img src="images/javascript_logo.png" style="width: 10%; margin: auto;">
+                            </div>
+                            <h4 class="card-title mt-3">Javascript</h4>
+                            <p class="card-text mt-3">
+                                I have experience with Javascript in the context of web
+                                development (HTML, CSS) and NodeJS (Discord, Twitch
+                                API).
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <div style="display: flex;">
+                                <img src="images/nvidia_cuda_logo.jpg" style="width: 15%; margin: auto;">
+                            </div>
+                            <h4 class="card-title mt-3">Cuda</h4>
+                            <p class="card-text mt-3">
+                                I have experience with Cuda (Cuda C++) as I write my own
+                                ray tracing algorithm accelerated with GPU.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <div style="display: flex;">
+                                <img src="images/matlab_logo.png" style="width: 10%; margin: auto;">
+                            </div>
+                            <h4 class="card-title mt-3">Matlab</h4>
+                            <p class="card-text mt-3">
+                                I know how to use Matlab and its capabilities in terms
+                                of vectorized computing.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <div style="display: flex;">
+                                <img src="images/linux_logo.png" style="width: 20%; margin: auto;">
+                            </div>
+                            <h4 class="card-title mt-3">Linux</h4>
+                            <p class="card-text mt-3">
+                                I am familiar with the Linux operating systems.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- projects section-->
+    <section id="projects">
+        <div class="container mt-3">
+            <h1 class="text-center">Projects</h1>
+
+            <button class="accordion">C++ Raytracer</button>
+            <div class="panel">
+                <div class="card">
+                    <img class="card-img-top" src="images/raytracer_card.png" alt="" style="width:50%;">
+                    <div class="card-body">
+                        <p class="card-text">
+                            Using C++, I developed my own realistic 3D renderer with raytracing. I used Nvidia CUDA to massively accelerated calculations.
+                            <br>Features :
+                            <ul>
+                                <li>Can render triangles and polygons decomposable in triangles</li>
+                                <li>Bounding volume hierarchy (BVH)</li>
+                                <li>Material : support light emission, color, glossiness, transparency</li>
+                                <li>Moving camera and adaptable parameters (fov,image size)</li>
+                                <li>SDL2 live screen with keyboard control of the camera</li>
+                                <li>Exportation in PNG format</li>
+                                <li>Support Simple OBJ objects</li>
+                            </ul>
+                        </p>
+                        <div class="text-center">
+                            <a href="https://github.com/maxenceleguery/3d-render-engine"
+                                class="btn btn-success">Link</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <button class="accordion">FixMatch algorithm</button>
+            <div class="panel">
+                <img class="card-img-top" src="images/fixmatch-pseudolabel.png" alt="" style="width:50%">
+                <div class="card-body">
+                    <p class="card-text">
+                        FixMatch is a semi-supervised machine learning algorithm aiming to train a ML model using a
+                        small amount of labelized examples by pseudolabeling many unlabelized examples to extend the
+                        train dataset.
+                        <br>
+                        <br> <a href="https://arxiv.org/abs/2001.07685">Kihyuk Sohn and al.</a>
+                        2020. FixMatch: simplifying semi-supervised learning with consistency and confidence. In
+                        Proceedings of the 34th International Conference on Neural Information Processing Systems
+                        (NIPS'20). Curran Associates Inc., Red Hook, NY, USA, Article 51, 596-608.
+                        <br> <a href="https://amitness.com/2020/03/illustrated-fixmatch">Amit Chaudhary</a> 2020. The
+                        Illustrated FixMatch for Semi-Supervised Learning.
+                    </p>
+                    <div class="text-center">
+                        <a href="https://github.com/maxenceleguery/ENSTA_courses/tree/master/MI201"
+                            class="btn btn-success">Link</a>
+                    </div>
+                </div>
+            </div>
+
+            <button class="accordion">3D Tetris</button>
+            <div class="panel">
+                <img class="card-img-top" src="images/portfolioImage3.jpg" alt="" style="width:100%">
+                <div class="card-body">
+                    <p class="card-text">3D version of the famous game : Tetris.
+                        Written in C++ using OpenGL.</p>
+                    <div class="text-center">
+                        <a href="https://github.com/maxenceleguery/tetris" class="btn btn-success">Link</a>
+                    </div>
+                </div>
+            </div>
+
+            <button class="accordion">U2IS Internship</button>
+            <div class="panel">
+                <img class="card-img-top" src="images/portfolioImage3.jpg" alt="" style="width:100%">
+                <div class="card-body">
+                    <p class="card-text">
+                        ABNN :
+                        <br>
+                        <br>
+                        SGHMC :
+                    </p>
+                    <div class="text-center">
+                        <!-- <a href="https://github.com/maxenceleguery/tetris" class="btn btn-success">Link</a> -->
+                    </div>
+                </div>
+            </div>
+
+            <button class="accordion">Visionairy Internship</button>
+            <div class="panel">
+                <img class="card-img-top" src="images/portfolioImage3.jpg" alt="" style="width:100%">
+                <div class="card-body">
+                    <p class="card-text">
+                        To come.
+                    </p>
+                    <div class="text-center">
+                        <!-- <a href="https://github.com/maxenceleguery/tetris" class="btn btn-success">Link</a> -->
+                    </div>
+                </div>
+            </div>
+
+
+    </section>
+
+    <!-- contact section-->
+    <section id="contact">
+        <div class="container">
+            <h1 class="text-center">Contact</h1>
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <div style="display: flex;">
+                                <img src="images/linkedin_logo.webp" style="width: 10%; margin: auto;">
+                            </div>
+                            <br>
+                            <br>
+                            <div class="text-center">
+                                <a href="https://www.linkedin.com/in/maxence-leguery/"
+                                    class="btn btn-success">Linkedin</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <div style="display: flex;">
+                                <img src="images/github_logo.png" style="width: 20%; margin: auto;">
+                            </div>
+                            <br>
+                            <br>
+                            <div class="text-center">
+                                <a href="https://github.com/maxenceleguery" class="btn btn-success">Github</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <div style="display: flex;">
+                                <img src="images/mail_logo.png" style="width: 10%; margin: auto;">
+                            </div>
+                            <h4 class="card-title mt-3">Mail</h4>
+                            <p class="card-text mt-3 text-center">
+                                maxence.leguery(at)ensta-paris.fr
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <footer>
+        © Maxence Leguéry 2024
+    </footer>
+
+    <!-- scripts section-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+
 </html>
